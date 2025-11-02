@@ -1,0 +1,4 @@
+[
+  { "id": 1, "text": "Finish React assignment", "completed": false },
+  { "id": 2, "text": "Review JavaScript concepts", "completed": true }
+]

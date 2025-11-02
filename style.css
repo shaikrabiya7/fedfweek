@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+/* Responsive Image */
+.responsive-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Headings styling */
+h1, h2, h3 {
+  color: #333;
+}
+
+/* MEDIA QUERY → for screens below 600px */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #fff0f0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .responsive-img {
+    max-width: 300px;
+  }
+}
